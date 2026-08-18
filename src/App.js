@@ -14,7 +14,7 @@ const defaultTodos = [
 
 function App() {
   return (
-    <React.Fragment>
+    <>
       <TodoCounter completed={16} total={20} />
       <TodoSearch />
       <TodoList>
@@ -23,7 +23,7 @@ function App() {
         ))}
       </TodoList>
      <CreateTodoButton />
-    </React.Fragment>
+    </>
   );
 }
 
